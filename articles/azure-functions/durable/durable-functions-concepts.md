@@ -84,7 +84,7 @@ Le paramètre `context` [DurableOrchestrationContext] \(.NET\) et l’objet `con
 
 ![Diagramme Fan-out/fan-in](./media/durable-functions-concepts/fan-out-fan-in.png)
 
-Avec des fonctions normales, le processus fan-out peut être effectué en configuration la fonction afin qu’elle envoie plusieurs messages vers une file d’attente. Mais le processus fan-in est beaucoup plus difficile. Vous devez écrire du code pour effectuer le suivi lorsque les fonctions déclenchées en file d’attente se terminent, puis stocker les sorties des fonctions. L’extension Fonctions durables gère ce modèle avec un code relativement simple.
+Avec des fonctions normales, le processus fan-out peut être effectué en configurant la fonction afin qu’elle envoie plusieurs messages vers une file d’attente. Mais le processus fan-in est beaucoup plus difficile. Vous devez écrire du code pour effectuer le suivi lorsque les fonctions déclenchées en file d’attente se terminent, puis stocker les sorties des fonctions. L’extension Fonctions durables gère ce modèle avec un code relativement simple.
 
 #### <a name="c-script"></a>Script C#
 
